@@ -80,6 +80,24 @@ curl -X POST http://localhost:3000/generate-from-image \
 
 ---
 
+## 📸 Screenshots
+
+Tampilan hasil uji coba API dengan Postman:
+
+### Generate Text
+![Generate Text](docs/images/generate-text.png)
+
+### Generate From Image
+![Generate Image](docs/images/generate-image.png)
+
+### Generate From Audio
+![Generate Audio](docs/images/generate-audio.png)
+
+### Generate From Document
+![Generate Document](docs/images/generate-document.png)
+
+---
+
 ## ⚡ Catatan
 - Pastikan API key valid (`GEMINI_API_KEY`).  
 - Default model: `gemini-2.5-flash` (bisa diganti di `index.js`).  
